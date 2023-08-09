@@ -1,3 +1,5 @@
+/*Width = Aspect Ratio * Height*/
+/*Height = Width / Aspect Ratio*/
 .element {
    width: 640px;
    height: 360px;
