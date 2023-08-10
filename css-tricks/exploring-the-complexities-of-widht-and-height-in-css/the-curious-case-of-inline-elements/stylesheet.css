@@ -1,0 +1,10 @@
+p,
+span {
+  border: 1px solid #ff7a18;
+}
+
+span {
+  margin-top: 150px;
+  width: 100%;
+  padding:30px
+}
