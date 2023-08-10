@@ -6,3 +6,26 @@
    background: red;
    padding: 10px
 }
+/*Bonus extra 
+   CSS Box Model
+   Es el valor por default que reconoce el navegador
+   considera el height y  width solo el contenido (padding + margin) no se consideran
+*/
+.bx-content {
+   background: ;
+   width: 100%;
+   border: 20px solid pink;
+   padding: 20px;
+   box-sizing: content-box;
+   height: 100px;
+}
+/* Este valor considera como width y height,  el border y el padding*/
+.bx-border {
+   margin: 40px 0;
+   background: ;
+   width: 100%;
+   border: 20px solid #000;
+   padding: 20px;
+   box-sizing: border-box;
+   height: 100px;
+}
